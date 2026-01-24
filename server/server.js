@@ -30,3 +30,7 @@ const PORT = process.env.PORT || 4000;
 app.listen(PORT, () =>
   console.log(`Server is running on port http://localhost:${PORT}`)
 );
+
+// inggest -> apps -> sync -> https://ping-up-sable-beta.vercel.app/api/inggest
+
+// clerk -> configue -> webhooks -> endpoints -> dropdown webhook -> ingest -> connect to inggest -> approve
